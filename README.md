@@ -13,9 +13,9 @@ This script simulates realistic police radar gun. With the help of fivem Direct-
 
 **CONFIG.USE_MPH** - If set to true the speed will be calculated to show MPH values otherwise it will display KMH.
 
-**CONFIG.SPEED_MEASURE_UNIT** - Whatever you type in here will be displayed on radar gun screen. (f.e. "MPH" or "KMH")
+**CONFIG.SPEED_MEASURE_UNIT** - Whatever you type in here will be displayed on radar gun screen. (e.g. "MPH" or "KMH")
 
-**CONFIG.DISTANCE_MEASURE_UNIT** - Whatever you type in here will be displayed on radar gun screen. (f.e. "FT" or "M")
+**CONFIG.DISTANCE_MEASURE_UNIT** - Whatever you type in here will be displayed on radar gun screen. (e.g. "FT" or "M")
 
 **CONFIG.RANGE** - Determines how far radar gun should detect vehicles. Setting higher values might not work because of fivem limitations. Recommend something around 55.
 ## Installation
