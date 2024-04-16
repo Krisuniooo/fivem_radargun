@@ -32,10 +32,10 @@ local function ActivateSpeedDetection()
             local DISTANCE_FROM_ENTITY = #(GetEntityCoords(PlayerPedId())-endCoords)
             
             SendDuiMessage(DUI_OBJECT, json.encode({
-                TYPE = "UPDATE",
                 SPEED = ENTITY_SPEED,
                 DISTANCE = DISTANCE_FROM_ENTITY,
-                UNIT = CONFIG.MEASURE_UNIT,
+                SPEED_UNIT = CONFIG.SPEED_MEASURE_UNIT,
+                DISTANCE_UNIT = CONFIG.DISTANCE_MEASURE_UNIT,
             }))
         end
         Wait(CONFIG.REFRESH_RATE)
